@@ -1,5 +1,5 @@
 import './App.css';
-import Phone from "./phone/Phone";
+import Phone from "./phone/phonestyle/Phone";
 
 function App() {
   return (

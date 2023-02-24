@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Phone from "./phone/phonestyle/Phone";
 
 function App() {

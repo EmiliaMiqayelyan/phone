@@ -1,420 +1,416 @@
-.phone{
-    width: 300px;
-    height: 620px;
-    border: 4px solid #679DBA;
-    border-radius: 34px;
-    margin: 70px auto;
+.phone {
+  width: 299px;
+  height: 619px;
+  border: 4px solid #679dba;
+  border-radius: 34px;
+  margin: 70px auto;
 }
 
-.phone_content{
-    width: 280px;
-    height: auto;
-    border: 10px solid;
-    border-radius: 30px;
-    overflow: hidden;
-    position: relative;
+.phone_content {
+  width: 280px;
+  height: auto;
+  border: 10px solid;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
 }
 
 .App-handle-container {
-    width: 100%;
-    position: absolute;
-    top: -200px;
-    z-index: 9999;
+  width: 100%;
+  position: absolute;
+  top: -200px;
+  z-index: 9999;
 }
 
-.loudspeaker{
-    width: 115px;
-    height: 4px;
-    background: #151414;
-    position: relative;
-    top: -24%;
-    left: 90px;
-    border-radius: 10px;
+.loudspeaker {
+  width: 115px;
+  height: 4px;
+  background: #151414;
+  position: relative;
+  top: -24%;
+  left: 90px;
+  border-radius: 10px;
 }
 
-.camera{
-    width: 23px;
-    height: 23px;
-    background: black;
-    margin: 10px auto;
-    border-radius: 50%;
+.camera {
+  width: 23px;
+  height: 23px;
+  background: black;
+  margin: 10px auto;
+  border-radius: 50%;
 }
 
-.main-camera{
-    width: 13px;
-    height: 13px;
-    background: #151414;
-    border-radius: 50%;
-    position: relative;
-    top: 5px;
-    left: 5px;
-}
-.small_camera{
-    background: #201d1d;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    margin: 0px auto;
-    position: relative;
-    top: 4px;
+.main-camera {
+  width: 13px;
+  height: 13px;
+  background: #151414;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
-.voice{
-    width: 6px;
-    height: 97px;
-    background: #679DBA;
-    margin-left: 104%;
-    border-radius: 10px;
-    margin-top: -65px;
+.small_camera {
+  background: #201d1d;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0px auto;
+  position: relative;
+  top: 4px;
 }
 
-.off_on{
-    width: 6px;
-    height: 45px;
-    background: #679DBA;
-    margin-left: 104%;
-    border-radius: 10px;
-    margin-top: 15px;
+.voice {
+  width: 6px;
+  height: 97px;
+  background: #679dba;
+  margin-left: 104%;
+  border-radius: 10px;
+  margin-top: -65px;
 }
 
-.footer{
-    width: 100%;
-    height: 47px;
-    margin-top: 115%;
-    color: white;
-    background-color: black;
+.off_on {
+  width: 6px;
+  height: 45px;
+  background: #679dba;
+  margin-left: 104%;
+  border-radius: 10px;
+  margin-top: 15px;
 }
 
-.footer_part{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
-    position: relative;
-    z-index: 1;
+.footer {
+  width: 100%;
+  height: 47px;
+  margin-top: 115%;
+  color: white;
+  background-color: black;
 }
 
-.header_part{
-    display: flex;
-    position: relative;
-    z-index: 1;
+.footer_part {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  position: relative;
+  z-index: 1;
 }
 
-.header_left_part{
-    width: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: -4px;
-    margin-left: 5px;
-    color: white;
+.header_part {
+  display: flex;
+  position: relative;
+  z-index: 1;
 }
 
-.header_right_part{
-    width: 63px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: -4px;
-    margin-right: 10px;
-    color: white;
+.header_left_part {
+  width: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -4px;
+  margin-left: 5px;
+  color: white;
 }
 
-.weather_icon{
-    font-size: 10px;
-    font-weight: 600;
-    margin: 0;
+.header_right_part {
+  width: 63px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -4px;
+  margin-right: 10px;
+  color: white;
 }
 
-.time_date{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    color: white;
+.weather_icon {
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0;
 }
 
-.time{
-    font-size: 35px;
-    margin: 0;
-    font-weight: 600;
+.time_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
 }
 
-.date{
-    font-size: 10px;
-    font-weight: 400;
+.time {
+  font-size: 35px;
+  margin: 0;
+  font-weight: 600;
 }
 
-.triangle_icon{
-    transform: rotate(269deg)
+.date {
+  font-size: 10px;
+  font-weight: 400;
 }
 
-.phone_back{
-    width: 265px;
-    height: 600px;
-    border: 2px solid #679DBA;
-    background: linear-gradient(#ECEDEF, #448FB9);
-    border-radius: 34px;
-    margin: 70px auto;
-    padding: 20px;
+.triangle_icon {
+  transform: rotate(269deg);
 }
 
-.phone_back_camera{
-    background: #111111;
-    width: 90px;
-    height: 190px;
-    padding: 15px;
-    border-radius: 23px;
+.phone_back {
+  width: 265px;
+  height: 600px;
+  border: 2px solid #679dba;
+  background: linear-gradient(#ecedef, #448fb9);
+  border-radius: 34px;
+  margin: 70px auto;
+  padding: 20px;
 }
 
-.phone_back_main_camera{
-    background: #0B0B0B;
-    width: 90px;
-    height: 155px;
-    border: 1px solid #515151;
-    border-radius: 15px;
+.phone_back_camera {
+  background: #111111;
+  width: 90px;
+  height: 190px;
+  padding: 15px;
+  border-radius: 23px;
 }
 
-.camera_part{
-    background: #666B6E;
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    border-radius: 10px;
-    gap: 5px;
+.phone_back_main_camera {
+  background: #0b0b0b;
+  width: 90px;
+  height: 155px;
+  border: 1px solid #515151;
+  border-radius: 15px;
 }
 
-.back_camera{
-    background: black;
-    width: 85px;
-    height: 39px;
-    border-radius: 7px;
-    margin: 0;
+.camera_part {
+  background: #666b6e;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.back_camera {
+  background: black;
+  width: 85px;
+  height: 39px;
+  border-radius: 7px;
+  margin: 0;
 }
 
 .back_cameras_part1,
-.back_cameras_part2{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+.back_cameras_part2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .first_camera,
 .light,
 .second_camera,
-.third_camera{
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    border: 2px solid #3c3b3b;
+.third_camera {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #3c3b3b;
 }
 
 .main_first_camera,
 .main_second_camera,
 .main_third_camera,
-.main_back_camera{
-    background: #313131;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: relative;
-    top: 4px;
-    left: 4px;
+.main_back_camera {
+  background: #313131;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  left: 4px;
 }
 
 .first_small_camera,
 .second_small_camera,
 .third_small_camera,
-.first_back_camera{
-    background: #2a2727;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    position: relative;
-    top: 4px;
-    left: 4px;
+.first_back_camera {
+  background: #2a2727;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  left: 4px;
 }
 
-.main_back_camera{
-    margin: 5px 10px;
+.main_back_camera {
+  margin: 5px 10px;
 }
 
-.light_part{
-    width: 20px;
-    height: 20px;
-    background: #DEDDC3;
-    border-radius: 50%;
-    margin: 4px auto;
+.light_part {
+  width: 20px;
+  height: 20px;
+  background: #deddc3;
+  border-radius: 50%;
+  margin: 4px auto;
 }
 
-.phone_name{
-    transform: rotate(270deg);
-    margin-top: 28%;
-    margin-left: -230px;
-    font-size: 21px;
-    color: #E4F4FE;
-    font-weight: 500;
+.phone_name {
+  transform: rotate(270deg);
+  margin-top: 28%;
+  margin-left: -230px;
+  font-size: 21px;
+  color: #e4f4fe;
+  font-weight: 500;
 }
 
-.about_phone{
-    transform: rotate(270deg);
-    margin-top: 35%;
-    margin-left: 40%;
-    display: flex;
-    width: 240px;
-    justify-content: space-between;
+.about_phone {
+  transform: rotate(270deg);
+  margin-top: 35%;
+  margin-left: 40%;
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
 }
 
-.ce_icon{
-    filter: invert(18%) sepia(4%) saturate(7369%) hue-rotate(0deg) brightness(34%) contrast(10%);
+.ce_icon {
+  filter: invert(18%) sepia(4%) saturate(7369%) hue-rotate(0deg) brightness(34%)
+    contrast(10%);
 }
 
-.hide_div{
-    border-radius: 26px;
-    cursor: pointer;
-    width: 93%;
-    height: 10px;
-    margin-left: 9px;
-    margin-top: -10px;
+.hide_div {
+  border-radius: 26px;
+  cursor: pointer;
+  width: 93%;
+  height: 10px;
+  margin-left: 9px;
+  margin-top: -10px;
 }
 
 .number-slide1 {
-    width: 300px;
-    height: 600px;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/86/619/650/clouds-porous-sky-bright-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
-    background-size: 300px 600px;
-    z-index: -1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 600px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/86/619/650/clouds-porous-sky-bright-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 600px;
+  z-index: -1;
 }
 
 .number-slide2 {
-    width: 300px;
-    height: 600px;
-    background-image: url("https://www.everythingabode.com/wp-content/uploads/2022/02/cloudy-wallpaper-3.jpg");
-    background-repeat: no-repeat;
-    background-size: 300px 600px;
-    z-index: -1;
+  height: 600px;
+  background-image: url("https://www.everythingabode.com/wp-content/uploads/2022/02/cloudy-wallpaper-3.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px 600px;
+  z-index: -1;
 }
 
 .App-handle {
-    width: 100%;
-    height: 235px;
-    background: none;
-    margin: 0 auto;
-    border-radius: 25px;
-    cursor: pointer;
+  width: 100%;
+  height: 235px;
+  background: none;
+  margin: 0 auto;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .App-overlay {
-    background-color: #282c34;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  background-color: #282c34;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-.keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.keen-slider:not([data-keen-slider-disabled]) .keen-slider__slide {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .App-bg {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    z-index: -2;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  z-index: -2;
 }
 
 .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-link {
-    color: #61dafb;
+  color: #61dafb;
 }
 
-.animated_div{
-    display: flex;
-    flex-direction: column-reverse;
-    position: relative;
+.animated_div {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
 }
 
-.div_div{
-    position: absolute;
-    z-index: 1;
-    width: 240px;
-    height: 760px;
-    border-radius: 20px;
+.div_div {
+  position: absolute;
+  z-index: 1;
+  width: 240px;
+  height: 760px;
+  border-radius: 20px;
 }
 
 .slider2_icons {
-    padding-top: 0px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
+  padding: 0 25px 25px 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.youtube_part{
-    width: 48px;
-    height: 35px;
-    background: white;
-    border-radius: 10px;
+.youtube_part {
+  width: 48px;
+  height: 35px;
+  background: white;
+  border-radius: 10px;
 }
 
 .youtube_icon {
-    width: 35px;
-    height: 35px;
-    color: red;
-    margin-left: 6px;
+  width: 35px;
+  height: 35px;
+  color: red;
+  margin-left: 6px;
 }
 
-.anydesk_part{
-    width: 48px;
-    height: 35px;
-    background: red;
-    border-radius: 10px;
+.anydesk_part {
+  width: 48px;
+  height: 35px;
+  background: red;
+  border-radius: 10px;
 }
 
-.anydesk_icon{
-    width: 32px;
-    height: 34px;
-    color: white;
-    margin-left: 6px;
+.anydesk_icon {
+  width: 32px;
+  height: 34px;
+  color: white;
+  margin-left: 6px;
 }
 
 .skype_part {
-    width: 48px;
-    height: 35px;
-    background: white;
-    border-radius: 10px;
+  width: 48px;
+  height: 35px;
+  background: white;
+  border-radius: 10px;
 }
 
-.skype_icon{
-    width: 30px;
-    height: 34px;
-    color: #009AE3;
-    margin-left: 8px;
+.skype_icon {
+  width: 30px;
+  height: 34px;
+  color: #009ae3;
+  margin-left: 8px;
 }
 
-.linkedin_part{
-    width: 48px;
-    height: 35px;
-    background: #1077ad;
-    border-radius: 10px;
+.linkedin_part {
+  width: 48px;
+  height: 35px;
+  background: #1077ad;
+  border-radius: 10px;
 }
 
-.linkedin_icon{
-    width: 23px;
-    height: 35px;
-    color: white;
-    margin-left: 12px;
+.linkedin_icon {
+  width: 23px;
+  height: 35px;
+  color: white;
+  margin-left: 12px;
 }
